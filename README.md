@@ -28,12 +28,6 @@ The bot periodically checks selected event pages and detects when the "SOLD OUT"
 
 Since tickets were unavailable during development, the bot was validated by simulating the removal of the "SOLD OUT" text through browser developer tools. The test successfully triggered the WhatsApp notification, confirming that the monitoring logic works as expected.
 
-### Important
-
-This project uses environment variables to protect sensitive information such as Twilio credentials and phone numbers.
-
-Create a `.env` file based on `.env.example` before running the project.
-
 ---
 
 ## 🇧🇷 Português
@@ -64,11 +58,6 @@ O sistema verifica periodicamente as páginas monitoradas e identifica quando o 
 
 Como não havia ingressos disponíveis durante o desenvolvimento, a validação foi realizada simulando a remoção do texto "ESGOTADO" através das ferramentas de desenvolvedor do navegador. O teste acionou corretamente a notificação via WhatsApp, confirmando o funcionamento da lógica de monitoramento.
 
-### Importante
-
-Este projeto utiliza variáveis de ambiente para proteger informações sensíveis, como credenciais do Twilio e números de telefone.
-
-Antes de executar o projeto, crie um arquivo `.env` baseado no `.env.example`.
 
 ---
 
